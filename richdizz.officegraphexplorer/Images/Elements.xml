@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\excel.png" Url="Images/excel.png" ReplaceContent="TRUE" />
+    <File Path="Images\actor.png" Url="Images/actor.png" ReplaceContent="TRUE" />
+    <File Path="Images\object.png" Url="Images/object.png" ReplaceContent="TRUE" />
+    <File Path="Images\spinner.gif" Url="Images/spinner.gif" ReplaceContent="TRUE" />
+    <File Path="Images\nopic.png" Url="Images/nopic.png" ReplaceContent="TRUE" />
+    <File Path="Images\word.png" Url="Images/word.png" ReplaceContent="TRUE" />
+    <File Path="Images\pdf.png" Url="Images/pdf.png" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

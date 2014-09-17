@@ -1,0 +1,204 @@
+﻿body {
+    font-family: "SegoeUI-SemiLight-final",Arial,Helvetica,sans-serif;
+    color: #373737;
+}
+
+h3 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#divOpacBackground {
+    filter: alpha(opacity=20);
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: 400;
+}
+#divSpinner {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    z-index: 180;
+}
+
+#divHeader {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-color: #373737; 
+    position: absolute; 
+    top: 0px; 
+    height: 42px; 
+    left: 0px; 
+    right: 0px;
+    z-index: 160;
+    border-bottom: 1px solid #BAD80A;
+}
+
+#divMessageBar {
+    position: absolute; 
+    top: 42px; 
+    left: 0px; 
+    right: 0px;
+    z-index: 150;
+    border-top: 1px solid #8BA207;
+}
+
+.message {
+    background-color: #BAD80A;
+    border-bottom: 1px solid #8BA207;
+    padding: 5px;
+    color: #FFF;
+}
+
+#divCanvas {
+    background-color: #212121; 
+    position: absolute; 
+    top: 42px; 
+    bottom: 0px; 
+    left: 0px; 
+    right: 0px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+#divHeaderText {
+    padding-left: 50px;
+    color: #fff;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+#tooltip {
+    position: absolute;
+    display: none;
+    z-index: 200;
+    cursor: default;
+    border: 1px solid #BAD80A;
+    background: #fff;
+    padding: 5px;
+    width: 300px;
+}
+
+    #tooltip h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 24px;
+        letter-spacing: -0.1px;
+        font-weight: 400;
+    }
+    #tooltip p {
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
+
+h2.object {
+    color: #BAD80A;
+}
+
+h2.actor {
+    color: #FFC800;
+}
+
+#divToolboxWrapper {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 320px;
+    right: -290px;
+    background: #fff;
+    z-index: 300;
+}
+
+#divToolboxFlyout {
+    position: absolute;
+    background: url(images/collapsed.png) no-repeat #8BA207;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 290px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#divToolboxFlyout.active {
+    background-image: url(images/expanded.png);
+}
+
+#divToolboxFlyout:hover {
+    background-color: #BAD80A;
+}
+
+#divToolboxContent {
+    position: absolute;
+    background: #fff;
+    top: 0px;
+    bottom: 0px;
+    left: 30px;
+    right: 0px;
+    width: 290px;
+    padding: 10px;
+}
+
+.inputContainer {
+    padding-bottom: 10px;
+}
+
+input {
+    width: 270px;
+}
+
+.toolbarItem {
+    padding: 10px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.checkbox {
+    float: left;
+    height: 30px; 
+    width: 30px;
+    background: url(images/checkbox_sprite.png) no-repeat;
+    cursor: pointer;
+}
+
+.checkbox:hover {
+    background: url(images/checkbox_sprite.png) no-repeat;
+    background-position-x: -30px;
+}
+
+.selected {
+    background: url(images/checkbox_sprite.png) no-repeat;
+    background-position-x: -60px;
+}
+
+.checkboxLabel {
+    float: left; 
+    padding-left: 5px; 
+    margin-top: 4px;
+}
+
+#btnApplyFilters {
+    border: 1px solid #212121;
+    background-color: #BAD80A;
+    padding: 5px;
+    text-align: center;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    cursor: pointer;
+}
+
+    #btnApplyFilters:hover {
+        background-color: #373737;
+    }

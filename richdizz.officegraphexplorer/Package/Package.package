@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="1b9763b3-5032-4fb6-bd88-e0d66e6cc200" 
+        solutionId="1b9763b3-5032-4fb6-bd88-e0d66e6cc200" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="richdizz.officegraphexplorer"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="d7a17e05-8a76-4a23-8c27-d2e92e7f88b6" />
+  </features>
+</package>
