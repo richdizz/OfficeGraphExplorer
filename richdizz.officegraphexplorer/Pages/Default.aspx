@@ -280,7 +280,7 @@
                     else if (ee.Key == 'Edges') {
                         //get the highest edge weight
                         var edges = JSON.parse(ee.Value);
-                        o.actorId = edges[0].ActorId;
+                        o.actorId = edges[0].ObjectId;
                         $(edges).each(function (i, e) {
                             var w = parseInt(e.Properties.Weight);
                             if (o.edgeWeight == null || w > o.edgeWeight)
