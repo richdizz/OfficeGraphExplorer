@@ -301,19 +301,19 @@
                 var objectGQL = '', objectGQLcnt = 0;
                 if ($('#showTrending').hasClass('selected')) {
                     objectGQLcnt++;
-                    objectGQL += "ACTOR(" + actorId + "\\, action\\:1020)"
+                    objectGQL += "ACTOR(" + actorId + "\\, action\\:1020)";
                 }
                 if ($('#showModified').hasClass('selected')) {
                     objectGQLcnt++;
                     if (objectGQLcnt > 1)
                         objectGQL += "\\, ";
-                    objectGQL += "ACTOR(" + actorId + "\\, action\\:1003)"
+                    objectGQL += "ACTOR(" + actorId + "\\, action\\:1003)";
                 }
                 if ($('#showViewed').hasClass('selected') && actorId == 'ME') {
                     objectGQLcnt++;
                     if (objectGQLcnt > 1)
                         objectGQL += "\\, ";
-                    objectGQL += "ACTOR(" + actorId + "\\, action\\:1001)"
+                    objectGQL += "ACTOR(" + actorId + "\\, action\\:1001)";
                 }
                 if (objectGQLcnt > 1)
                     objectGQL = "OR(" + objectGQL + ")";
@@ -353,25 +353,25 @@
                 var actorGQL = '', actorGQLcnt = 0;
                 if ($('#showColleagues').hasClass('selected')) {
                     actorGQLcnt++;
-                    actorGQL += "ACTOR(" + actorId + "\\, action\\:1015)"
+                    actorGQL += "ACTOR(" + actorId + "\\, action\\:1015)";
                 }
                 if ($('#showWorkingwith').hasClass('selected')) {
                     actorGQLcnt++;
                     if (actorGQLcnt > 1)
                         actorGQL += "\\, ";
-                    actorGQL += "ACTOR(" + actorId + "\\, action\\:" + workingWithActionID + ")"
+                    actorGQL += "ACTOR(" + actorId + "\\, action\\:" + workingWithActionID + ")";
                 }
                 if ($('#showManager').hasClass('selected')) {
                     actorGQLcnt++;
                     if (actorGQLcnt > 1)
                         actorGQL += "\\, ";
-                    actorGQL += "ACTOR(" + actorId + "\\, action\\:1013)"
+                    actorGQL += "ACTOR(" + actorId + "\\, action\\:1013)";
                 }
                 if ($('#showDirectreports').hasClass('selected')) {
                     actorGQLcnt++;
                     if (actorGQLcnt > 1)
                         actorGQL += "\\, ";
-                    actorGQL += "ACTOR(" + actorId + "\\, action\\:1014)"
+                    actorGQL += "ACTOR(" + actorId + "\\, action\\:1014)";
                 }
                 if (actorGQLcnt > 1)
                     actorGQL = "OR(" + actorGQL + ")";
